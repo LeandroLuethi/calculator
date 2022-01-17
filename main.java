@@ -5,19 +5,16 @@ public class main {
        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        frame.setSize(500,800);
      
-       javax.swing.JPanel jPanelc = new javax.swing.JPanel();
+       javax.swing.JPanel jPanel1 = new javax.swing.JPanel();
+       jPanel1.setSize(500,600);
        JButton buttonc = new JButton("c");
        buttonc.setSize(100,100);
-       javax.swing.JPanel jPanelbracket = new javax.swing.JPanel();
-       JButton buttonbracket = new JButton("()");
+       JButton buttonbracket = new JButton("( )");
        buttonbracket.setSize(100,100);
-       javax.swing.JPanel jPanelmodulo = new javax.swing.JPanel();
        JButton buttonmodulo = new JButton("%");
        buttonmodulo.setSize(100,100);
-       javax.swing.JPanel jPaneldivide = new javax.swing.JPanel();
        JButton buttondivide = new JButton(":");
        buttondivide.setSize(100,100);
-       javax.swing.JPanel jPanel1 = new javax.swing.JPanel();
        JButton buttonone = new JButton("1");
        buttonone.setSize(100,100);
        frame.getContentPane().add(buttonone); 
@@ -43,7 +40,28 @@ public class main {
        frame.getContentPane().add(buttoneight); 
        JButton buttonnine = new JButton("9");
        buttonnine.setSize(100,100);
-       frame.getContentPane().add(buttonnine);       
+       frame.getContentPane().add(buttonnine);
+       JButton multiply = new JButton("x");
+       buttonnine.setSize(100,100);
+       frame.getContentPane().add(multiply);
+       JButton buttonsubtract = new JButton("-");
+       buttonnine.setSize(100,100);
+       frame.getContentPane().add(buttonsubtract);
+       JButton buttonadd = new JButton("+");
+       buttonnine.setSize(100,100);
+       frame.getContentPane().add(buttonadd);
+       JButton buttonequal = new JButton("9");
+       buttonequal.setSize(100,100);
+       frame.getContentPane().add(buttonequal);
+       JButton buttoncomma = new JButton(".");
+       buttoncomma.setSize(100,100);
+       frame.getContentPane().add(buttoncomma);
+       JButton buttonzero = new JButton("0");
+       buttonzero.setSize(100,100);
+       frame.getContentPane().add(buttonzero);
+       JButton buttonchange = new JButton("+/-");
+       buttonchange.setSize(100,100);
+       frame.getContentPane().add(buttonchange);
        
        frame.setVisible(true);
        jPanel1.setVisible(true);
@@ -51,18 +69,24 @@ public class main {
        jPanel1.add(buttonbracket);
        jPanel1.add(buttonmodulo);
        jPanel1.add(buttondivide);
-       jPanel1.add(buttonone);
-       jPanel1.add(buttontwo);
-       jPanel1.add(buttonthree);
-       jPanel1.add(buttonfour);
-       jPanel1.add(buttonfive);
-       jPanel1.add(buttonsix);
        jPanel1.add(buttonseven);
        jPanel1.add(buttoneight);
        jPanel1.add(buttonnine);
-       jPanel1.setLayout( new java.awt.GridLayout( 4, 5 ) );
-       frame.add(jPanel1);$
-       helllo
-           halllloooooooooooooooooooooo leoooooooooooooo
+       jPanel1.add(multiply);
+       jPanel1.add(buttonfour);
+       jPanel1.add(buttonfive);
+       jPanel1.add(buttonsix);
+       jPanel1.add(buttonsubtract);
+       jPanel1.add(buttonone);
+       jPanel1.add(buttontwo);
+       jPanel1.add(buttonthree);
+       jPanel1.add(buttonadd);
+       jPanel1.add(buttonchange);
+       jPanel1.add(buttonzero);
+       jPanel1.add(buttoncomma);
+       jPanel1.add(buttonequal);
+ 
+       jPanel1.setLayout( new java.awt.GridLayout( 5, 4 ) );
+       frame.add(jPanel1);
     }
 }
