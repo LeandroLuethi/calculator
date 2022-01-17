@@ -90,6 +90,4 @@ public class main {
        frame.add(jPanel1);
     }
 }
-2.0 helloooooooooooo leooooooooooooooooooooooooo
-
-braaaaaaaaaaaaaaaaaaaaaaanch
+testdirkeks
