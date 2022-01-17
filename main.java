@@ -62,7 +62,6 @@ public class main {
        jPanel1.add(buttonnine);
        jPanel1.setLayout( new java.awt.GridLayout( 4, 5 ) );
        frame.add(jPanel1);$
-       khdjfgkgrghbtkbhhhuuhub
-           hallo
+       
     }
 }
