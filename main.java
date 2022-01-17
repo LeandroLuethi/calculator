@@ -90,6 +90,3 @@ public class main {
        frame.add(jPanel1);
     }
 }
-testdirkeks
-haloleo
-uihkjhkjhkj
